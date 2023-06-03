@@ -1,4 +1,6 @@
-# Lab_4_TMPS
+# Lab_4_TMPS - Behavioral Patterns
+## by Agatiev Dumitru
+
 
 Observer Pattern:
 
