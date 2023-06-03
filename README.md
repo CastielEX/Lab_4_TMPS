@@ -2,6 +2,13 @@
 ## by Agatiev Dumitru
 
 
+## Task : 
+    1. Creating a new project or extending your last one project, implement at least 1 behavioral design pattern in your project.
+
+    2. Keep your files grouped (into packages/directories) by their responsibilities.
+
+    3. Document your work in a separate markdown file according to the requirements.
+
 Observer Pattern:
 
 1. The Subject class represents a subject that maintains a list of observers and allows observers to subscribe (attach) and unsubscribe (detach) to it.
