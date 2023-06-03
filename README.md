@@ -28,3 +28,14 @@ The context can be configured with a specific state using the set_state method, 
 * The command pattern illustrates how different commands can be executed independently.
 * The state pattern shows how the context's behavior changes based on the current state, and different actions are performed accordingly.
 * These design patterns provide modular and flexible solutions to address various behavioral scenarios in software development.
+
+
+## Here is showcase were thoose 4 patterns were used in this project : 
+
+1. Strategy Pattern:
+* The strategy pattern is implemented in the `behavioral_patterns/strategy package`.
+* The Strategy class is the abstract base class, and `Strategy1` and `Strategy2` are the concrete strategy classes.
+* The `execute` method in each concrete strategy class represents the strategy-specific behavior.
+
+
+
