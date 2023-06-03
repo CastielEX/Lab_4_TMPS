@@ -53,3 +53,16 @@ The context can be configured with a specific state using the set_state method, 
 * The `State` class is the abstract base class, and `State1` and `State2` are the concrete state classes.
 * The `perform_action` method in each concrete state class represents the state-specific behavior.
 
+## Here is execution of the APP :
+
+Execute the following command to run the main.py file:
+`python main.py`
+This will execute the code and you should see the output in the console.
+The expected output based on the implemented design patterns should be:
+`Executing Strategy 1...
+Executing Strategy 2...
+Executing Concrete Command 1...
+Executing Concrete Command 2...
+Performing Action in State 1...
+Performing Action in State 2...`
+Each line represents the execution of a specific behavior defined in the corresponding design pattern.
