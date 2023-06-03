@@ -37,18 +37,18 @@ The context can be configured with a specific state using the set_state method, 
 * The Strategy class is the abstract base class, and `Strategy1` and `Strategy2` are the concrete strategy classes.
 * The `execute` method in each concrete strategy class represents the strategy-specific behavior.
 
-2. Command Pattern:
+### 2. Command Pattern:
 * The command pattern is implemented in the `behavioral_patterns/command package`.
 * The `Command` class is the abstract base class, and `ConcreteCommand1` and `ConcreteCommand2` are the concrete command classes.
 * The `execute` method in each concrete command class represents the command-specific behavior.
 
-3. Observer Pattern:
+### 3. Observer Pattern:
 * The observer pattern is implemented in the `behavioral_patterns/observer package`.
 * The `Subject` class is the subject that contains a list of observers and provides methods for managing and notifying observers.
 * The `Observer` class is the abstract base class for observers, and `ConcreteObserver1` and `ConcreteObserver2` are the concrete observer classes.
 * The `update` method in each concrete observer class represents the behavior when the observer receives an update from the subject.
 
-4. State Pattern:
+### 4. State Pattern:
 * The state pattern is implemented in the `behavioral_patterns/state package`.
 * The `State` class is the abstract base class, and `State1` and `State2` are the concrete state classes.
 * The `perform_action` method in each concrete state class represents the state-specific behavior.
