@@ -32,7 +32,7 @@ The context can be configured with a specific state using the set_state method, 
 
 ## Here is showcase were thoose 4 patterns were used in this project : 
 
-1. Strategy Pattern:
+1. ### Strategy Pattern:
 * The strategy pattern is implemented in the `behavioral_patterns/strategy package`.
 * The Strategy class is the abstract base class, and `Strategy1` and `Strategy2` are the concrete strategy classes.
 * The `execute` method in each concrete strategy class represents the strategy-specific behavior.
