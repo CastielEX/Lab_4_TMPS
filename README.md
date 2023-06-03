@@ -20,3 +20,11 @@ State Pattern:
 4. The Context class represents a context that can change its behavior based on its internal state.
 The State1 and State2 classes are concrete states that encapsulate different behaviors.
 The context can be configured with a specific state using the set_state method, and the perform_action method performs an action based on the current state.
+
+## In the usage example at the end of the code, the following functionalities are demonstrated:
+
+* The observer pattern showcases how observers can subscribe, unsubscribe, and receive notifications when the subject's state changes.
+* The strategy pattern demonstrates how the context can switch between different strategies, and each strategy executes a specific algorithm.
+* The command pattern illustrates how different commands can be executed independently.
+* The state pattern shows how the context's behavior changes based on the current state, and different actions are performed accordingly.
+* These design patterns provide modular and flexible solutions to address various behavioral scenarios in software development.
